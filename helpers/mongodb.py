@@ -18,7 +18,7 @@ import random
 
 class MongoDB:
     def __init__(self):
-        conn_str = "mongodb+srv://thomaslaumonier:Qypj7XcUEOEuLugt@m0cluster.7daojiy.mongodb.net/?retryWrites=true&w=majority"
+        conn_str = "..."
         client = MongoClient(conn_str)
         self.db = client["Socialify"]
         
